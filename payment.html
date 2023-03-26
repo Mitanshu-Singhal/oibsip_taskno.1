@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <style>
+        body{
+            background-color: rgba(184, 189, 193, 0.406);
+            background-image: url("payimg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: auto;
+            width: auto;   
+        }
+        .bx{
+            box-shadow: 5px 5px 5px rgb(209, 203, 203) ,
+                    -2px -2px 3px rgb(228, 221, 221);
+            box-sizing: border-box;
+            
+            width: 500px;
+            height:65px;
+            font-size: larger;
+            padding:21px 0px 0px;
+            margin-top: 15px;
+            text-shadow: 2px 2px 2px rgba(170, 27, 27, 0.411);
+            background-color: rgba(143, 97, 53, 0.377);
+        }
+        input[type=submit]{
+            width:100%;
+            height:30px;
+            background-color: rgba(128, 110, 104, 0.8);
+            border:none;
+            border-radius: 5px;  
+        }
+        .main{
+         padding:20px;
+        }
+    </style>
+</head>
+<body>
+    <center><div class="main"><u> <h1 style="text-shadow: 2px 1px 2px rgba(216, 98, 30, 0.322);">SELECT PAYMENT METHOD</h1></u>
+       <label> <div class="bx"><input type="radio" name="pay"><b>UPI / NET BANKING</b></div><br></label>
+       <label> <div class="bx"><input type="radio" name="pay"><b>Add Debit / Credit / ATM Card</b></div><br></label>
+       <label> <div class="bx"><input type="radio" name="pay"><b>EMI</b></div><br></label>
+       <label><div class="bx"><input type="radio" name="pay"><b>Pay On Delivery</b></div><br></label>
+        <input type="Submit" value="continue" onclick="alert('Processing your Payment Method, Thank You for waiting patiently.')" style = "box-sizing: border-box; width: 500px; height: 30px; margin-top: 50px; background-color: rgba(171, 163, 194, 0.836); "></div></center>
+</body>
+</html>

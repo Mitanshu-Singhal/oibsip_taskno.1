@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <style>
+        body{
+            background-image: url("cart.jpg");
+            overflow-wrap:break-word;    
+        }
+        .cart{
+        padding : 20px;
+        padding-bottom: 280px;
+        margin: 50px;
+        background-color: white;
+        width:90%;
+        height:700px;
+        text-align: center;
+        font-size: larger;
+        display:grid;
+        grid-template-rows: 1fr 2fr;
+    }
+    #hm{
+        margin-top:20px;
+        margin-left: 20px;
+        text-decoration-color: #ffe4c4;
+        text-decoration-style:solid ;
+        font-size: medium;
+        background-color: rgba(117, 56, 56, 0.329);
+        color: aliceblue;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .nm{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+       padding:10px;
+       background-color: white;
+       box-shadow: 5px 5px 5px rgb(209, 203, 203) ,
+                    -2px -2px 3px rgb(228, 221, 221);
+                    background-image: url("cart1.jpg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    color: white;
+    }    
+    img{
+        border:5px solid wheat;
+    }
+    .name{
+        position:relative;
+        top:80px;
+        text-transform: uppercase;
+        color: white;
+    }
+    .price{
+        position:relative;
+        top:80px;
+        color: white;
+    }
+    a{text-transform: none;}
+    </style>
+</head>
+<body>
+    <a href="multi.html"><button id="hm">HOME</button></a>
+  <div class="cart">
+    <div class="nm">
+        <h1>SHOPPING CART</h1></div>
+  <div class="nm"> <div class="bk"><img src="book1.jpg" alt="book1"></div>
+  <div class="name">Last Summer Boys <br>Bill Rivers </div>
+  <div class="price">200$</div></div> 
+  <div class="nm"> <div class="bk"><img src="book7.jpg" alt="book7"></div>
+  <div class="name">Set of 4 books<br>Historic Novels</div>
+  <div class="price">780$</div></div>
+   <div class="nm"><div class="bk"><img src="book10.jpg" alt="book10"></div>
+   <div class="name">The White Hare <br>Jane Jhonson</div>
+   <div class="price">100$</div></div>
+  </div>  
+</body>
+</html>
